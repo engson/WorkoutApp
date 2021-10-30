@@ -1,0 +1,2 @@
+com/sondreweb/gymind/BuildConfig.java
+ com.sondreweb.gymind.BuildConfig
