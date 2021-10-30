@@ -29,7 +29,7 @@ fun Greeting(name: String) {
     Text(text = "Hello $name!")
 }
 
-@Preview(showBackground = true)
+@Preview(name= "test ", showBackground = true, backgroundColor = 0xffd43f48)
 @Composable
 fun DefaultPreview() {
     GyMindTheme {
