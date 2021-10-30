@@ -11,9 +11,10 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    working-directory: gymind
+    defaults:
+      run:
+        working-directory: gymind
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 11
