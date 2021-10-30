@@ -8,6 +8,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
@@ -19,6 +20,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.tooling.preview.PreviewParameter
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -52,7 +55,7 @@ fun Navigation() {
         }
 
         composable("main_screen"){
-            Greeting("Android")
+            Greeting("Sondre123")
         }
     }
 }
@@ -65,14 +68,15 @@ fun SplashScreen(navController: NavController){
 
     LaunchedEffect(key1 = true){
         scale.animateTo(
-            targetValue = 0.7f,
+            targetValue = 1f,
             animationSpec = tween(
                 durationMillis = 800,
                 easing = {
                     OvershootInterpolator(4f)
                         .getInterpolation(it)
                 }))
-        delay(2500L)
+        delay(300L)
+
         navController.navigate("main_screen")
     }
 
@@ -86,13 +90,15 @@ fun SplashScreen(navController: NavController){
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+    Box(modifier = Modifier.fillMaxSize()){
+        Text(text = "Hello $name!", Modifier.padding(16.dp))
+    }
 }
 
-@Preview(name= "test ", showBackground = true)
+@Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    GyMindTheme {
-        Greeting("Sondre")
+    GyMindTheme(darkTheme = false) {
+        Greeting("preview")
     }
 }
