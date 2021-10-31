@@ -52,7 +52,9 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+// TODO: Fix state between bottom and top bar
+// https://github.com/johncodeos-blog/BottomNavigationBarComposeExample/blob/main/app/src/main/java/com/example/bottomnavigationbarcomposeexample/MainActivity.kt
+ // https://github.com/farida-techie/BottomNavigationBarS/blob/master/app/src/main/java/com/malkinfo/bottomnavigationbars/MainActivity.kt
 @Composable
 fun ContentNavigation(navController: NavHostController) {
     NavHost(navController, startDestination = NavigationItem.Profile.route) {
@@ -71,6 +73,7 @@ fun ContentNavigation(navController: NavHostController) {
 @Composable
 fun MainScreen() {
     val navController = rememberNavController()
+    var title by remember{ mutableStateOf("Profile")}
     Scaffold(
         topBar = { TopBar(navController)},
         bottomBar = { BottomNavigationBar(navController)}
@@ -90,11 +93,9 @@ fun MainScreenPreview() {
 fun TopBar(navController: NavController) {
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
-    val title by remember  { mutableStateOf("text") }
-    println("title:" + title)
-    println("currentRoute:" + currentRoute)
+    val title by remember { mutableStateOf(currentRoute) }
     TopAppBar (
-        title = { Text(text = "AppName", fontSize = 18.sp) },
+        title = { title?.let { Text(text = it, fontSize = 18.sp) } },
         backgroundColor = MaterialTheme.colors.background,
         contentColor = MaterialTheme.colors.primary,
     )
