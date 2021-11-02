@@ -21,6 +21,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.tooling.preview.PreviewParameter
+import androidx.compose.ui.tooling.preview.PreviewParameterProvider
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
@@ -40,8 +42,6 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.primarySurface, modifier = Modifier.fillMaxSize()) {
                     MainScreen()
-                    // Navigation()
-                    //Greeting("Android")
                 }
             }
         }
@@ -90,8 +90,18 @@ fun TopBar(navController: NavController) {
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
     val title by remember { mutableStateOf(currentRoute) }
+    TopAppBarComp("HelloWorld")
+}
+
+class TopAppBarProvider : PreviewParameterProvider<String> {
+    override val values = listOf("Exercises", "Workouts").asSequence()
+}
+
+
+@Composable
+fun TopAppBarComp(title: String){
     TopAppBar (
-        title = { title?.let { Text(text = it, fontSize = 18.sp) } },
+        title = {Text(text = title, fontSize = 18.sp)},
         backgroundColor = MaterialTheme.colors.background,
         contentColor = MaterialTheme.colors.primary,
     )
@@ -99,8 +109,8 @@ fun TopBar(navController: NavController) {
 
 @Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_YES)
 @Composable
-fun TopBarPreview(){
-    //    TopBar()
+fun TopBarPreview(@PreviewParameter(TopAppBarProvider::class) title: String){
+    TopAppBarComp(title)
 }
 
 @Composable
@@ -144,19 +154,4 @@ fun BottomNavigationBar(navController: NavController){
 @Composable
 fun BottomNavigationBarPreview() {
     //BottomNavigationBar()
-}
-
-@Composable
-fun Greeting(name: String) {
-    Box(modifier = Modifier.fillMaxSize()){
-        Text(text = "Hello $name!", color = MaterialTheme.colors.secondary, modifier = Modifier.padding(16.dp))
-    }
-}
-
-@Preview(showBackground = true, showSystemUi  = true, uiMode = Configuration.UI_MODE_NIGHT_YES)
-@Composable
-fun DefaultPreview() {
-    GyMindTheme {
-        Greeting("preview")
-    }
 }

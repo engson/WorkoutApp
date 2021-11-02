@@ -6,6 +6,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
@@ -17,7 +18,6 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.sondreweb.gymind.Greeting
 import com.sondreweb.gymind.R
 import kotlinx.coroutines.delay
 
@@ -30,9 +30,7 @@ fun Navigation() {
             SplashScreen(navController = navController)
         }
 
-        composable("main_screen"){
-            Greeting("Sondre123")
-        }
+        composable("main_screen") { Text("hello") }
     }
 }
 
