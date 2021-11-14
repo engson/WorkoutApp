@@ -1,0 +1,629 @@
+[
+  {
+    "_id": 1,
+    "name": "Deadlift",
+    "description": "Deaflift with barbell",
+    "instructions": [
+      "Stand with your mid-foot under the barbell.",
+      "Bend over and grab the bar with a shoulder-width grip.",
+      "Bend your knees until the bar almost touches your shins.",
+      "With a neutral spine, flex your butt and brace your stomach.",
+      "Pick the bar up off the ground (It helps to think “press DOWN into the floor with your feet through your heels”).",
+      "Continue pressing down with your legs until the barbell passes your knees, then thrust your hips forward until you are standing up.",
+      "Reverse your movement until the bar returns to its starting place on the ground."
+    ],
+    "tips":[
+      "Focus on pressing DOWN into the floor with your feet through your heels",
+      "Retract shoulder blades at top."
+    ],
+    "targets": {
+      "legs": ["glutes","hamstring"],
+      "back": ["Erector spinae"]
+    },
+    "synergists": ["Quadriceps", "Hamstrings", "Adductor Magnus", "Soleus"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "barbell_deadlift",
+    "examples": ["ic_legs.gif","ic_legs_2.gif"],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 2,
+    "name": "Benchpress",
+    "description": "Benchpress with barbell",
+    "instructions": [
+      "Lay faceup on a horizontal bench, with your butt on the bench and feet flat on the ground.",
+      "Grasp the barbell with an overhand grip wider than shoulder width.",
+      "Tuck your shoulder blades behind your back – this will help keep your elbows from flaring out too much.",
+      "Inhale, lift up the bar and lower it to the center of your chest, in a controlled movement, maintaining pressure on your feet the entire time",
+      "Once the bar touches your chest, press the weight back up explosively, and exhale at the end of each rep."
+    ],
+    "tips":[
+      "Press on the floor hard with your feet – this will create a slight arch in your back, with your weight of your body resting on the back of your shoulders and your butt",
+      "The bar should travel in a slight arc forward, in order to reach the center of your chest.",
+      "Never use a false grip. A false grip (aka thumbless or suicide grip) is when you don’t wrap your thumbs around the bar.",
+      "Tucking in your elbows also reduces the pressure on your shoulders."
+    ],
+    "targets": {
+      "chest": ["pecs"],
+      "arms": ["Triceps"]
+    },
+    "synergists": ["Clavicular", "Anterior Deltoid","Triceps"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "barbell_bench_press",
+    "examples": ["ic_legs.gif","ic_legs_2.gif"],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 3,
+    "name": "Squat",
+    "description": "Barbell squat",
+    "instructions": [
+      "Load a barbell on a rack at upper-chest height.",
+      "Step under the barbell so that it rests on the back of your shoulders, and grasp the bar at each side.",
+      "Dismount the barbell and step backward carefully. Your feet should be shoulder-width apart and pointing slightly outwards.",
+      "Inhale as you squat down by simultaneously pushing your butt backward and bending your knees forward. Keep your torso upright, and descend at least until your knees are bent at a 90-degree angle.",
+      "Exhale as you push your body back up to the starting position, driving through your heels and keeping your torso upright and core tight.",
+      "Extra instruction"
+    ],
+    "tips":[
+      "Keep your back straight, torso upright, head up, and feet flat.",
+      "Keep your knees and feet pointing in the same direction.",
+      "Practice proper barbell squat form with an unloaded barbell.",
+      "Most barbell squat-related accidents happen while stepping back with the barbell.",
+      "Extra Tip.",
+      "Extra Tip 2.",
+      "Extra Tip 3."
+    ],
+    "targets": {
+      "legs": ["Gluteus Maximus","Quadriceps"]
+    },
+    "synergists": ["Adductor Magnus", "Soleus"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "barbellsquat",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 4,
+    "name": "Cable Crunch",
+    "description": "Cable Crunch",
+    "instructions": [
+      "Grasp one end of the rope attachment in each hand and place your wrists against the sides of your head.",
+      "Lower your torso by flexing your hips, but allow the weight of the rope to lift your upper torso so that your lower back is extended (curved upward).",
+      "Keeping your hips fixed, exhale as you pull the rope downward by flexing your abdomen so that your back becomes arched.",
+      "Hold for a count of two.",
+      "Inhale as you relax your abdomen and allow the rope to lift your upper torso so that your lower back goes back to being extended."
+    ],
+    "tips":[
+      "Keep your hips fixed. All of the movement should be in your abdomen.",
+      "Do not allow your back to arch or hyperextend beyond feeling a mild stretch.",
+      "Keep your neck in a neutral position so that there’s always a space between your chin and your chest.",
+      "Instead of a rope attachment, you can use two stirrups."
+    ],
+    "targets": {
+      "core": ["Rectus abdominis"]
+    },
+    "synergists": ["Obliques"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "cable_kneeling_crunch",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 5,
+    "name": "Dumbbell Shrug",
+    "description": "Dumbbell Shrug",
+    "instructions": [
+      "Stand with your feet hip-width apart and your arms by your sides, holding a dumbbell in each hand.",
+      "Exhale as you elevate your shoulders straight up as high as possible.",
+      "Hold for a count of two and squeeze your trapezius.",
+      "Inhale as you lower your shoulders to the starting position."
+    ],
+    "tips":[
+      "Keep your arms slightly bent.",
+      "Do not move your arms. Only your shoulders should move.",
+      "Do not roll your shoulders.",
+      "The dumbbell shrug is great for building the size and strength of your upper and middle trapezius, which will help you with many other key lifts and movements.",
+      "Bodybuilders from the golden era, such as Frank Zane, are said to have avoided building the upper trapezius because a big upper trapezius makes your shoulders look less broad."
+    ],
+    "targets": {
+      "shoulders": ["Upper Trapezius"]
+    },
+    "synergists": ["Middle Trapezius","Levator Scapulae"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "dumbbell_shrug",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 6,
+    "name": "Seated Leg Curl",
+    "description": "Seated Leg Curl Machine",
+    "instructions": [
+      "Lower the thigh support so that it rests just above your knees.",
+      "Exhale as you flex your knees and curl the lever all the way to the back of your thighs.",
+      "Hold for a count of two and squeeze your hamstrings.",
+      "Inhale as you return the lever to the starting position."
+    ],
+    "tips":[
+      "Keep the movement slow and controlled.",
+      "Try to resist the rising of the lever.",
+      "Keep your back pressed firmly against the back support.",
+      "Adjust the back support and lever for comfort and optimal leverage.",
+      "Always keep your ankles flexed (toes pointing toward your shins) when performing the seated leg curl. This allows your gastrocnemii to offer better assistance to your hamstrings."
+    ],
+    "targets": {
+      "legs": ["Hamstrings"]
+    },
+    "synergists": ["Gastrocnemius", "Gracilis", "Sartorius", "Popliteus"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "seated_leg_curl",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 7,
+    "name": "Lat Pulldown (Medium)",
+    "description": "Lat Pulldown Cable (Machine)",
+    "instructions": [
+      "Sit on the lat pull-down machine.",
+      "Bring the thigh pad down onto your thighs so that you are secured in place.",
+      "Grasp the bar with a pronated (overhand) grip, with your hands a little wider than shoulder width apart (medium grip). Your arms and shoulders should be fully stretched upward.",
+      "Keeping your head back and chest out, exhale as you slowly pull the bar down to the upper part of your chest.",
+      "Hold for a count of two and squeeze your shoulder blades together.",
+      "Inhale as you slowly return the bar to the starting position, with your arms and shoulders fully stretched."
+    ],
+    "tips":[
+      "Pull the bar with your elbows, not with your biceps.",
+      "You can allow your torso to rock back as you pull down and to rock forward as the bar rises. However, keep the rocking to a minimum.",
+      "The medium-grip lat pull-down is great for strengthening and building your back and arms, as well as developing upper-body strength. However, the pull-up is even more beneficial."
+
+    ],
+    "targets": {
+      "back": ["lats"]
+    },
+    "synergists":["Trapezius", "Brachialis", "Brachioradialis", "Biceps" , "Pecs", "Deltoid"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "lat_pull_down",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 8,
+    "name": "Standing Calf Raises",
+    "description": "Standing Calf Raises",
+    "instructions": [
+      "Position the balls of your feet on the foot platform, with the arches and heels of your feet extending off.",
+      "Exhale as you push the levers up as far as possible by raising your heels.",
+      "Hold for a count of two.",
+      "Inhale as you slowly lower the levers until you feel a slight stretch in your calves."
+    ],
+    "tips":[
+      "Keep your back straight.",
+      "Do not lock your knees out.",
+      "Turn your toes inward (internal rotation) while performing the machine standing calf raise to emphasize the lateral head of your gastrocnemius, turn your toes outward (external rotation) to emphasize the medial head of your gastrocnemius, or keep your toes pointing forward to place equal emphasis on each head.",
+      "Unless there is a significant size difference in the two heads of your gastrocnemius, just keep your toes pointing forward."
+    ],
+    "targets": {
+      "legs": ["Gastrocnemius"]
+    },
+    "synergists":["Soleus"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "lever_standing_calf_raise",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 9,
+    "name": "Cable Crossover",
+    "description": "Cable Crossover",
+    "instructions": [
+      "Bend forwards slightly at the hips, keeping your back straight.",
+      "Extend your arms out to your sides, keeping them slightly bent at the elbows. Your palms should be facing forward.",
+      "Exhale as you slowly draw the stirrups together in an arcing motion, until they are positioned in front of your abdomen.",
+      "Hold for a count of two and squeeze your chest.",
+      "Inhale as you slowly return the stirrups to the starting position, or until you feel a mild stretch in your chest."
+    ],
+    "tips":[
+      "Keep your body still, back straight, and your elbows slightly bent.",
+      "It’s a good idea to cross the handles at the top of the movement and thus strengthen the cross-over range of motion."
+    ],
+    "targets": {
+      "chest": ["Sternal (lower) Pectoralis Major"]
+    },
+    "synergists":["Clavicular (upper) Pectoralis Major","Anterior Deltoid","Biceps Brachii (short head)"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "cable_cross_over",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 10,
+    "name": "Seated Cable Row",
+    "description": "Seated Cable Row",
+    "instructions": [
+      "Grasp the double-row bar and slide your bottom backward until your knees are almost straight. You torso should be leaning forward and your arms and shoulders should be stretching forward.",
+      "Exhale as you slowly lean backward, straighten your back, and pull the v-bar to your abdomen, keeping your elbows close to your body. Pull your shoulders back (retracted) and stick out your chest at the top of the movement.",
+      "Hold for a count of two and squeeze your back muscles.",
+      "Inhale as you slowly lean forward and return the double-row bar to the starting position, with your arms and shoulders stretching forward and your lower back bent forward."
+    ],
+    "tips":[
+      "Pull with your elbows, not with your biceps.",
+      "Compared to straight-back seated cable row, This exercise dynamically work your spinal erectors. However straight back allow for more weight"
+    ],
+    "targets": {
+      "back": ["Latissimus Dorsi"]
+    },
+    "synergists":["Erector Spinae","Middle and Lower Trapezius","Rhomboids","Teres Major","Posterior Deltoid","Infraspinatus","Teres Minor","Brachialis","Brachioradialis","Sternal (Lower) Pectoralis Major"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "cablerow",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 11,
+    "name": "Straight-back Seated Cable Row",
+    "description": "Straight-back Seated Cable Row",
+    "instructions": [
+      "Grasp the double-row bar and slide your buttocks backward until your knees are almost straight.",
+      "Lean backward until your torso is vertical. Your back should be straight, the cable should be pulled taut, and your arms and shoulders should be stretching forward.",
+      "Keeping your torso vertical, back straight, and elbows close to your body, exhale as you slowly pull the double-row bar to your abdomen, retracting shoulders back",
+      "Hold for a count of two, stick out your chest, and squeeze your back muscles.",
+      "Inhale as you slowly return the double-row bar to the starting position, with your arms and shoulders stretching forward."
+    ],
+    "tips":[
+      "Pull with your elbows, not with your biceps.",
+      "Compared to straight-back seated cable row, this allow for more weight, but don't train erector spinae"
+    ],
+    "targets": {
+      "back": ["Latissimus Dorsi"]
+    },
+    "synergists":["Middle and Lower Trapezius","Rhomboids","Teres Major","Posterior Deltoid","Infraspinatus","Teres Minor","Brachialis","Brachioradialis","Sternal (Lower) Pectoralis Major"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "straight_back_seated_cable_row",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 12,
+    "name": "EZ Bar Bicep Curl",
+    "description": "EZ Bar Bicep Curl",
+    "instructions": [
+      "Stand holding an EZ-curl bar using a shoulder-width supinated grip (palms facing upward). Your elbows should be almost fully extended, and the bar should be resting against your thighs.",
+      "Keeping your upper arms fixed by your sides, exhale as you curl the EZ-curl bar up toward your shoulders. Driving the force with the pinkies.",
+      "At the top of the movement, hold for a count of two and squeeze your biceps.",
+      "Inhale as you lower the EZ-curl bar to the starting position in a controlled manner."
+
+    ],
+    "tips":[
+      "Keep your elbows by your sides. Only your forearms should move.",
+      "Swing the elbows a bit forward to increase range of motion in a controlled manner."
+    ],
+    "targets": {
+      "arms": ["Biceps Brachii"]
+    },
+    "synergists":["Brachioradialis","Brachialis"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "ez_bar_curl",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 13,
+    "name": "Dumbbell Skull Crusher",
+    "description": "Dumbbell Skull Crusher",
+    "instructions": [
+      "Lay down on with a flat back on the bech. Keep code tight and hold the dumbells straight out over your head.",
+      "Let arms fall back with elbow fixed in place, in a controlled manner to about 90 degrees.",
+      "Push straight up and breathe out on the way up."
+    ],
+    "tips":[
+      "Keep your back straight, torso upright, head up, and feet flat."
+    ],
+    "targets": {
+      "arms": ["Triceps Brachii"]
+    },
+    "synergists":[],
+    "icon": "ic_arms",
+    "muscleActivationMap": "lying_dumbbell_tricep_extension",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 14,
+    "name": "Incline Leg Press",
+    "description": "Incline Leg Press",
+    "instructions": ["Sit in the leg press machine. Make sure your back is pressed firmly against the back support.",
+      "extend your legs without locking your knees. Your torso and legs should make a 90-degree angle.",
+      "Inhale as you bend your legs and lower the platform until your knees are almost fully flexed.",
+      "Driving with your heels, press the platform back up to the starting position as you exhale."
+    ],
+    "tips":[
+      "Adjust the back support and safety brace to accommodate a full range of motion.",
+      "Keep your feet flat on the platform, and your knees and toes pointing in the same direction (slightly outward).",
+      "As you lower the platform, do not allow your lower back to curl up; keep it in firm contact with the support.",
+      "Do not lock your knees out when you press the platform up."
+    ],
+    "targets": {
+      "legs": ["Quadriceps"]
+    },
+    "synergists":["Gluteus Maximus","Adductor Magnus","Soleus"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "sled_45_degree_leg_press",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 15,
+    "name": "Leaning Lateral Raise",
+    "description": "Leaning Lateral Raise",
+    "instructions": [
+      "Position feet parallel to the machine, with legs apart on a straight line. Driving side leg forward",
+      "Grab cable with hand between you legs.",
+      "Keeping your body still and elbow slightly flexed, exhale as you raise the cable out to the side. Try to point pinkies upward.",
+      "Hold for a count of two.",
+      "Inhale as you lower the cable to the starting position in a controlled manner."
+    ],
+    "tips":[
+      "Keep your body still; only your arm should move.",
+      "Holding on to the pole helps to stabilize your body, which reduces your ability to cheat.",
+      ""
+    ],
+    "targets": {
+      "shoulder": ["lateral Deltoid"]
+    },
+    "synergists":["Anterior Deltoid","Supraspinatus","Middle and Lower Trapezius","Serratus Anterior"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "cable_one_arm_lateral_raise",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 16,
+    "name": "Leg Extension",
+    "description": "Leg Extension Machine",
+    "instructions": [
+      "Hook your feet straight under the foot pads of the lever with the pads resting just above your ankles.",
+      "Exhale as you lift the lever forwards and upwards by straightening your legs until they are fully extended, point your toes forward.",
+      "Hold for a count of two.",
+      "Inhale as you return the lever to the starting position by bending your knees."
+    ],
+    "tips":[
+      "Adjust the back support and seat to accommodate full range of motion.",
+      "Position your knees at the same axis as the lever fulcrum.",
+      "As you raise the padded lever, do not allow your hips to curl up; keep your thighs in firm contact with the seat.",
+      "The leg extension exercise mainly develops your lower quads. To put more emphasis on your upper quads, as you raise your legs, point your toes forward"
+    ],
+    "targets": {
+      "legs": ["Quadriceps"]
+    },
+    "synergists":[],
+    "icon": "ic_arms",
+    "muscleActivationMap": "lever_leg_extension",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 17,
+    "name": "Seated calf raise",
+    "description": "Standing Calf Raises Barbell",
+    "instructions": [
+      "Sit in the calf raise machine and place your forefeet on the foot platforms, with your heels extending off.",
+      "Inhale as you allow the lever to descend in a controlled manner until you feel a stretch in your calves.",
+      "Hold for a count of one.",
+      "Exhale as you press the lever all the way up by raising your heels.",
+      "Hold for a count of two."
+    ],
+    "tips":[
+      "Holding for a count of one before pressing the lever back up allows the elastic energy in your Achilles tendons to dissipate, thus preventing you from using the energy to bounce the lever back up.",
+      "Ff your calves have different sizes, perform the exercise one leg at a time, starting with your smaller leg.",
+      "If you don’t have access to a seated calf raise machine, you can perform seated calf raises with a barbell on your knees and your forefeet on a block. See the second video."
+    ],
+    "targets": {
+      "legs": ["Soleus"]
+    },
+    "synergists":["Gastrocnemius"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "lever_seated_calf_raise_plate_loaded",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 18,
+    "name": "Hanging Leg Raise",
+    "description": "Hanging Leg Raise",
+    "instructions": [
+      "Hang from a bar using a shoulder-width pronated (overhand) grip.",
+      "Straighten your lower back so that there is as little of an arch in your lower back as possible.",
+      "Keeping your body still, lower back straight and legs together, exhale as you slowly raise your knees by flexing your hips.",
+      "Hold for a count of two.",
+      "Inhale as you slowly lower your knees to the starting position by extending your hips."
+    ],
+    "tips":[
+      "Keeping your lower back straight is important because the muscles of the iliopsoas pull on your lower back, forcing it to arch. If you perform the hanging leg raise with your lower back arched, the extent of the arch will be exaggerated by the pull of the iliopsoas, increasing the risk of lower back problems."
+    ],
+    "targets": {
+      "legs": ["Iliopsoas","Rectus Femoris"]
+    },
+    "synergists":["Tensor Fasciae Latae","Sartorius","Pectineus","Adductor Longus","Adductor Brevis"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "hanging_leg_raise",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 19,
+    "name": "Pull Up",
+    "description": "Pull Up",
+    "instructions": [
+      "Grasp the bar with a wider-than-shoulder-width pronated (overhand) grip.",
+      "Hang with your arms and shoulders fully stretched.",
+      "Exhale as you pull your body up until your chin rises above the bar.",
+      "Hold for a count of two and squeeze your back muscles.",
+      "Inhale as you lower your body until your arms and shoulders are fully stretched."
+    ],
+    "tips":[
+      "Pull with your elbows, not with your biceps.",
+      "If you can’t do pull-ups, keep increasing the amount of weight that you pull down until it nears your own weight. Then, practice the negative pull-up (see third video), which will help you to develop the strength necessary to perform proper pull-ups.",
+      "If you use a supinated (underhand) grip, it becomes a chin-up."
+    ],
+    "targets": {
+      "back": ["Latissimus Dorsi"]
+    },
+    "synergists":["Brachialis", "Brachioradialis", "Biceps Brachii", "Pectoralis Minor", "Teres Major", "Posterior Deltoid", "Infraspinatus", "Rhomboids", "Teres Minor", "Middle and Lower Trapezius", "Levator Scapulae"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "pull_up",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 20,
+    "name": "T-Bar Row",
+    "description": "T-Bar Row",
+    "instructions": [
+      "Stand over a t-bar with a wide stance and knees slightly bent.",
+      "Keeping your torso upright and back straight, bend down, grasp the handles with either a wide or a shoulder-width grip, and pull the bar off the floor a little. Your back should be straight and almost horizontal, and your arms should be almost fully extended.",
+      "Exhale as you pull the t-bar up to your abdomen.",
+      "Hold for a count of two.",
+      "Inhale as you return the t-bar to the starting position."
+    ],
+    "tips":[
+      "Pull with your back muscles, not your biceps.",
+      "Keep your back straight and close to horizontal.",
+      "Start light to give your lower back time to adapt.",
+      "If your gym doesn’t have a t-bar lever/machine, you can use a barbell. Just position one end of the barbell into a corner to keep it from moving, load the other end with plates, wrap a double row bar around the barbell, and you’re ready to go."
+    ],
+    "targets": {
+      "back": ["Trapezius"]
+    },
+    "synergists":["Latissimus Dorsi","Rhomboids", "Teres Major", "Posterior Deltoid", "Infraspinatus", "Teres Minor", "Brachialis", "Brachioradialis", "Pectoralis Major"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "lever_t_bar_row_plate_loaded",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 21,
+    "name": "Incline Dumbbell bench Press",
+    "description": "Incline Dumbbell bench Press",
+    "instructions": [
+      "Holding a dumbbell in each hand, sit on a bench inclined at 45 degrees and rest one dumbbell on each knee.",
+      "As you lie back on the bench, kick the dumbbells up, one at a time, into place.",
+      "Position the dumbbells to the sides of your chest, with your elbows bent and tucked in to your torso a little.",
+      "Straighten your wrists. Spread your legs and place your feet flat on the floor.",
+      "Exhale as you press the dumbbells upward and inward until your arms are almost fully extended and the dumbbells nearly touch.",
+      "Hold for a count of two and squeeze your chest.",
+      "Inhale as you lower the dumbbells back to the starting position, or until you feel a mild stretch in your chest."
+    ],
+    "tips":[
+      "Planting your feet, tucking in your elbows a little, and straightening your wrists allow you to drive from your legs, through your body, and up through your arms, thus getting your entire body behind the press.",
+      "Tucking your elbows in a little also reduces the pressure on your shoulders.",
+      "Try not to drop the dumbbells on the floor, by your sides, after you have finished. Instead, raise your knees and carefully bring the dumbbells down onto them. The weight of the dumbbells will then push your legs down and help you to sit up. Could result in shoulder tair"
+    ],
+    "targets": {
+      "chest": ["Clavicular (Upper) Pectoralis Major"]
+    },
+    "synergists":["Anterior Deltoid", "Triceps Brachii"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "incline_dumbbell_bench_press",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 22,
+    "name": "Rope Face pull",
+    "description": "Rope Face pull",
+    "instructions": [
+      "Stand in front of a pulley set at approximately head height. With rope supinated (underhad). Assume a staggered stance.",
+      "Exhale as you pull the rope toward your forehead.",
+      "As the rope nears your face, externally rotate your shoulders so that you end up making a double biceps pose.",
+      "Hold for a count of two.",
+      "Inhale as you reverse the motion and return the rope to the starting position in a controlled manner."
+    ],
+    "tips":[
+      "Keep the flexing of your elbows to a minimum. This will keep as much movement as possible in your shoulders, where it belongs.",
+      "Avoid swaying back and forth to complete the reps. Keep the movement in your shoulders."
+    ],
+    "targets": {
+      "shoulders": ["Posterior Deltoid"]
+    },
+    "synergists":["Lateral Deltoid", "Infraspinatus", "Teres Minor", "Middle and Lower Trapezius", "Brachialis", "Brachioradialis"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "face_pull",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 23,
+    "name": "Hammer Curl",
+    "description": "Hammer Curl",
+    "instructions": ["Stand holding a dumbbell in each hand using a neutral (aka hammer) grip (palms facing in). Elbow just in front of hips.",
+      "Keeping your elbow by your side, exhale as you curl one dumbbell up towards your shoulder until your biceps is fully contracted.",
+      "Hold for a count of two and squeeze your biceps.",
+      "Inhale as you slowly lower the dumbbell to the starting position."
+    ],
+    "tips":[
+      "Keep bicep engaged during the whole exercise.",
+      "The dumbbell hammer curl targets your brachioradialis, a forearm muscle; it does not target your biceps brachii, which acts as a synergist, along with your brachialis. That is not to say that your biceps and brachialis do not get a great workout!"
+    ],
+    "targets": {
+      "arms": ["Brachioradialis"]
+    },
+    "synergists":["Biceps Brachii","Brachialis"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "dumbbell_hammer_curl",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 24,
+    "name": "Step Up dumbbell",
+    "description": "Step Up Box dumbbell",
+    "instructions": ["Holding a pair of dumbbells by your sides, stand facing a raised platform, such as a bench.",
+      "Exhale as you slowly step up onto the bench, leading with your right leg.",
+      "Bring your feet together on the bench.",
+      "Inhale as you slowly step down off the bench, leading with your right leg.",
+      "Bring your feet together on the floor.",
+      "Repeat, alternating the leg with which you step up and down off the bench."
+    ],
+    "tips":[
+      "Ensure that you neither spring/bounce up onto the bench nor allow yourself to drop back down. Control the movement, using your muscles to slowly lift and lower yourself. If you find yourself having to spring, choose a lighter weight.",
+      "Keep your knees behind your toes to ensure that you activate your gluteus maximus and your upper quadriceps tissue.",
+      "Keep your body upright and your feet and knees pointing in the same direction.",
+      "To emphasize your gluteus maximus, stand farther away from the bench; to emphasize your quadriceps, stand closer to the bench.",
+      "The taller the bench, the more you will emphasize your gluteus maximus."
+    ],
+    "targets": {
+      "legs": ["Quadriceps"]
+    },
+    "synergists":["Gluteus Maximus", "Adductor Magnus", "Soleus", "Gastrocnemius"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "dumbbell_step_up",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  },
+  {
+    "_id": 25,
+    "name": "Overhead Press (Barbell)",
+    "description": "Overhead Press Barbell",
+    "instructions": ["Stand with your feet shoulder-width apart, holding a barbell with a pronated (overhand) grip at upper-chest height.",
+      "Exhale as you push the barbell straight upward.",
+      "At the top of the movement, shrug your shoulders to raise the barbell even higher.",
+      "Inhale as you reverse the motions and lower the barbell to the starting position in a controlled manner."
+    ],
+    "tips":[
+      "Do not lock your elbows out.",
+      "Drive with the whole body. Starting from feet."
+    ],
+    "targets": {
+      "shoulders": ["Anterior Deltoid"]
+    },
+    "synergists":["Lateral Deltoid", "Clavicular (upper) Pectoralis Major", "Triceps Brachii", "Upper Trapezius","Middle Trapezius", "Lower Trapezius", "Serratus Anterior"],
+    "icon": "ic_arms",
+    "muscleActivationMap": "barbell_military_press",
+    "examples": [""],
+    "exercise_substitutions": [0]
+  }
+]
+
+

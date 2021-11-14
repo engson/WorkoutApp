@@ -59,6 +59,9 @@ dependencies {
     implementation 'androidx.navigation:navigation-compose:2.4.0-beta01'
     implementation 'androidx.room:room-compiler:2.2.6'
     implementation 'androidx.room:room-common:2.2.6'
+    implementation("com.akuleshov7:ktoml-core:0.2.7")
+    implementation("com.akuleshov7:ktoml-file:0.2.7")
+
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

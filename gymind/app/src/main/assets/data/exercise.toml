@@ -1,0 +1,60 @@
+# Exercises table.
+#   {"exercise" : [
+#       {"name": "value","_id":"value"},...,{}]
+#    }
+#
+#
+[[exercises]]
+_id = 1
+name = "Deadlift"
+description = "Deaflift with barbell"
+instructions = [
+    "Stand with your mid-foot under the barbell.",
+    "Bend over and grab the bar with a shoulder-width grip.",
+    "Bend your knees until the bar almost touches your shins.",
+    "With a neutral spine, flex your butt and brace your stomach.",
+    "Pick the bar up off the ground (It helps to think “press DOWN into the floor with your feet through your heels”).",
+    "Continue pressing down with your legs until the barbell passes your knees, then thrust your hips forward until you are standing up.",
+    "Reverse your movement until the bar returns to its starting place on the ground."
+]
+tips = [
+    "Focus on pressing DOWN into the floor with your feet through your heels",
+    "Retract shoulder blades at top."
+]
+synergists = [ "Quadriceps", "Hamstrings", "Adductor Magnus", "Soleus" ]
+icon = "ic_arms"
+muscleActivationMap = "barbell_deadlift"
+examples = [ "ic_legs.gif", "ic_legs_2.gif" ]
+exercise_substitutions = [ 0 ]
+
+[targets]
+legs = [ "glutes", "hamstring" ]
+back = [ "Erector spinae" ]
+
+
+[[exercises]]
+_id = 2
+name = "Benchpress"
+description = "Benchpress with barbell"
+instructions = [
+    "Lay faceup on a horizontal bench, with your butt on the bench and feet flat on the ground.",
+    "Grasp the barbell with an overhand grip wider than shoulder width.",
+    "Tuck your shoulder blades behind your back – this will help keep your elbows from flaring out too much.",
+    "Inhale, lift up the bar and lower it to the center of your chest, in a controlled movement, maintaining pressure on your feet the entire time",
+    "Once the bar touches your chest, press the weight back up explosively, and exhale at the end of each rep."
+]
+tips = [
+    "Press on the floor hard with your feet – this will create a slight arch in your back, with your weight of your body resting on the back of your shoulders and your butt",
+    "The bar should travel in a slight arc forward, in order to reach the center of your chest.",
+    "Never use a false grip. A false grip (aka thumbless or suicide grip) is when you don’t wrap your thumbs around the bar.",
+    "Tucking in your elbows also reduces the pressure on your shoulders."
+]
+synergists = [ "Clavicular", "Anterior Deltoid", "Triceps" ]
+icon = "ic_arms"
+muscleActivationMap = "barbell_bench_press"
+examples = [ "ic_legs.gif", "ic_legs_2.gif" ]
+exercise_substitutions = [ 0 ]
+
+[targets]
+chest = [ "pecs" ]
+arms = [ "Triceps" ]
