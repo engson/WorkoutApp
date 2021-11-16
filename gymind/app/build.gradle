@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -61,7 +62,7 @@ dependencies {
     implementation 'androidx.room:room-common:2.2.6'
     implementation("com.akuleshov7:ktoml-core:0.2.7")
     implementation("com.akuleshov7:ktoml-file:0.2.7")
-
+    // Testing
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
