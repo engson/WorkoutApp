@@ -58,3 +58,32 @@ exercise_substitutions = [ 0 ]
 [targets]
 chest = [ "pecs" ]
 arms = [ "Triceps" ]
+
+[[exercises]]
+_id = 3
+name = "Squat"
+description = "Barbell squat"
+Instructions = [
+    "Load a barbell on a rack at upper-chest height.",
+    "Step under the barbell so that it rests on the back of your shoulders, and grasp the bar at each side.",
+    "Dismount the barbell and step backward carefully. Your feet should be shoulder-width apart and pointing slightly outwards.",
+    "Inhale as you squat down by simultaneously pushing your butt backward and bending your knees forward. Keep your torso upright, and descend at least until your knees are bent at a 90-degree angle.",
+    "Exhale as you push your body back up to the starting position, driving through your heels and keeping your torso upright and core tight.",
+    "Extra instruction"
+]
+tips = [
+    "Keep your back straight, torso upright, head up, and feet flat.",
+    "Keep your knees and feet pointing in the same direction.",
+    "Practice proper barbell squat form with an unloaded barbell.",
+    "Most barbell squat-related accidents happen while stepping back with the barbell.",
+    "Extra Tip.",
+    "Extra Tip 2.",
+    "Extra Tip 3."
+]
+[targets]
+legs = ["Gluteus Maximus", "Quadriceps"]
+synergists = ["Adductor Magnus", "Soleus"]
+icon = "ic_arms"
+muscleActivationMap = "barbellsquat"
+examples = [""]
+exercise_substitutions = [0]
